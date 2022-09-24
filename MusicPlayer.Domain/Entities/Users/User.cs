@@ -1,16 +1,15 @@
-﻿using MusicPlayer.Domain.Commons;
-using System;
-using System.Collections.Generic;
+﻿
+using MusicPlayer.Domain.Commons;
 using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace MusicPlayer.Domain.Entities.Users
 {
     public class User : Auditable
     {
+#pragma warning disable CS8618
+        [Required]
         public string FirstName { get; set; }
+        [Required]
         public string LastName { get; set; }
 
         [DataType(DataType.EmailAddress)]

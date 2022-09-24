@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "VZGuS1o8c2xpQzTtIsLBdv9tO4n2Whxb/4ZNEQEfRdA=",
+  "Source": "MusicPlayer.Api",
+  "BasePath": "_content/MusicPlayer.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
