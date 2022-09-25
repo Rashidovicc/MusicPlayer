@@ -7,7 +7,7 @@ namespace MusicPlayer.Data.IRepositories
     {
         Task<TEntity> CreateAsync(TEntity entity);
         Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> expression);
-        IQueryable<TEntity> GetAllAsync(Expression<Func<TEntity, bool>>? expression = null);
+        IQueryable<TEntity> GetAll(Expression<Func<TEntity, bool>>? expression = null);
         TEntity Update(TEntity entity);
         void Delete(TEntity entity);
     }

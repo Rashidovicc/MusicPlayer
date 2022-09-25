@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\muham\source\repos\MusicPlayer\MusicPlayer.Desktop\obj\Debug\net6.0-windows\
+E:\Projects\Desktop\MusicPlayer\MusicPlayer.Desktop\obj\Debug\net6.0-windows\
 MusicPlayer.Desktop
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-C:\Users\muham\source\repos\MusicPlayer\MusicPlayer.Desktop\App.xaml
+E:\Projects\Desktop\MusicPlayer\MusicPlayer.Desktop\App.xaml
 11407045341
 
 5140980673
 194-200944676
 MainWindow.xaml;
 
-True
+False
 

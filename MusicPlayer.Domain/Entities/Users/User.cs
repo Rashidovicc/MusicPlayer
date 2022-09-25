@@ -1,5 +1,6 @@
 ﻿
 using MusicPlayer.Domain.Commons;
+using MusicPlayer.Domain.Entities.Commons;
 using System.ComponentModel.DataAnnotations;
 
 namespace MusicPlayer.Domain.Entities.Users
@@ -17,5 +18,8 @@ namespace MusicPlayer.Domain.Entities.Users
 
         [DataType(DataType.Password)]
         public string Password { get; set; }
+
+        public long AttachmentId { get; set; }
+        public Attachment Attachment { get; set; }
     }
 }
