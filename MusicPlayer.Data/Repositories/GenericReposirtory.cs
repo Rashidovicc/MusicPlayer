@@ -22,7 +22,7 @@ namespace MusicPlayer.Data.Repositories
         public void Delete(TEntity entity)
             => this.dbSet.Remove(entity);
 
-        public IQueryable<TEntity> GetAllAsync(Expression<Func<TEntity, bool>>? expression = null)
+        public IQueryable<TEntity> GetAll(Expression<Func<TEntity, bool>>? expression = null)
             => expression is null ? this.dbSet : this.dbSet.Where(expression);
 
         public async Task<TEntity?> GetAsync(Expression<Func<TEntity, bool>> expression)

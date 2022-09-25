@@ -11,7 +11,7 @@ namespace MusicPlayer.Domain.Entities.Musics
         public string Name { get; set; }
         public string Author { get; set; }
         public int Duration { get; set; }
-        
+
         public long UserId { get; set; }
         public User User { get; set; }
 

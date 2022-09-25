@@ -1,13 +1,10 @@
-﻿
-using MusicPlayer.Domain.Commons;
-using MusicPlayer.Domain.Entities.Commons;
+﻿using Microsoft.AspNetCore.Http;
 using System.ComponentModel.DataAnnotations;
 
-namespace MusicPlayer.Domain.Entities.Users
+namespace MusicPlayer.Service.DTO.Users
 {
-    public class User : Auditable
+    public class UserForCreationDto
     {
-#pragma warning disable CS8618
         [Required]
         public string FirstName { get; set; }
         [Required]
@@ -18,8 +15,6 @@ namespace MusicPlayer.Domain.Entities.Users
 
         [DataType(DataType.Password)]
         public string Password { get; set; }
-
-        public long AttachmentId { get; set; }
-        public Attachment Attachment { get; set; }
+        public IFormFile File { get; set; }
     }
 }
