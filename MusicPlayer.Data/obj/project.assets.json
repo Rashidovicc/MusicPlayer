@@ -837,19 +837,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\99893\\.nuget\\packages\\": {}
+    "C:\\Users\\muham\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Projects\\Desktop\\MusicPlayer\\MusicPlayer.Data\\MusicPlayer.Data.csproj",
+      "projectUniqueName": "C:\\Users\\muham\\source\\repos\\MusicPlayer\\MusicPlayer.Data\\MusicPlayer.Data.csproj",
       "projectName": "MusicPlayer.Data",
-      "projectPath": "E:\\Projects\\Desktop\\MusicPlayer\\MusicPlayer.Data\\MusicPlayer.Data.csproj",
-      "packagesPath": "C:\\Users\\99893\\.nuget\\packages\\",
-      "outputPath": "E:\\Projects\\Desktop\\MusicPlayer\\MusicPlayer.Data\\obj\\",
+      "projectPath": "C:\\Users\\muham\\source\\repos\\MusicPlayer\\MusicPlayer.Data\\MusicPlayer.Data.csproj",
+      "packagesPath": "C:\\Users\\muham\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\muham\\source\\repos\\MusicPlayer\\MusicPlayer.Data\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\99893\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\muham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -857,14 +862,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Projects\\Desktop\\MusicPlayer\\MusicPlayer.Domain\\MusicPlayer.Domain.csproj": {
-              "projectPath": "E:\\Projects\\Desktop\\MusicPlayer\\MusicPlayer.Domain\\MusicPlayer.Domain.csproj"
+            "C:\\Users\\muham\\source\\repos\\MusicPlayer\\MusicPlayer.Domain\\MusicPlayer.Domain.csproj": {
+              "projectPath": "C:\\Users\\muham\\source\\repos\\MusicPlayer\\MusicPlayer.Domain\\MusicPlayer.Domain.csproj"
             }
           }
         }

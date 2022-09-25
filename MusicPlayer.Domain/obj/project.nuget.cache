@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V4Awm24wW7tpw3/zhZOzmd0pV+9UwgAX2FX8pc1omZ2s/u4+cd8iychtYHZet+c8OKpMQqIyDhlLNA+Z/GJ3mQ==",
+  "dgSpecHash": "xi/w8DIHoTkNu115OBjSe8xkcksqrWiwedCgAnsWAqJFEm39J/fGscf9u9vAX3KTpwEXXuwJ7ZGDI27fdKHj/Q==",
   "success": true,
-  "projectFilePath": "E:\\Projects\\Desktop\\MusicPlayer\\MusicPlayer.Domain\\MusicPlayer.Domain.csproj",
+  "projectFilePath": "C:\\Users\\muham\\source\\repos\\MusicPlayer\\MusicPlayer.Domain\\MusicPlayer.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
